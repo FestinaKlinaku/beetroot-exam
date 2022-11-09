@@ -312,4 +312,78 @@ button {
 }
 .features .flex-3 .features__item img {
   background: #333333;
+}
+
+.country {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.country .country__row {
+  padding-top: 229px;
+  padding-bottom: 100px;
+}
+.country .country__row .country__content {
+  background: #232323;
+  opacity: 0.9;
+  padding: 47px 30px;
+  max-width: 540px;
+}
+.country .country__row .country__content span {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  color: #E8E8E8;
+  font-size: 20px;
+  padding-bottom: 23px;
+}
+.country .country__row .country__content .country__title {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  color: #E8E8E8;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 23px;
+}
+.country .country__row .country__content .country__text {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  color: #E8E8E8;
+  margin-top: 13px;
+  margin-bottom: 46px;
+}
+.country .country__row .country__content .btn {
+  background: #5474FD;
+  border: none;
+  padding: 18px 23px;
+  font-family: "Aleo", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.country .one {
+  background-image: url(../assets/bg-country-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.country .two {
+  background-image: url(../assets/bg-country-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
 }/*# sourceMappingURL=main.css.map */
