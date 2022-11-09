@@ -48,3 +48,10 @@ table {
 	border-spacing: 0;
 }
 /* ## END RESET ##  */
+
+* {
+	box-sizing: border-box;
+	&::before, &::after {
+		box-sizing: border-box;
+	}
+}

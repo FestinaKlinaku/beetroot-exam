@@ -1,0 +1,15 @@
+body {
+    max-width: 1773px;
+    width: 100%;
+}
+
+body,
+input,
+select,
+button {
+  font-family: $defaultFont;
+}
+
+.container {
+    padding: 0 331px;
+}

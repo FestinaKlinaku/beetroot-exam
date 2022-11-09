@@ -53,4 +53,176 @@ table {
   border-spacing: 0;
 }
 
-/* ## END RESET ##  *//*# sourceMappingURL=main.css.map */
+/* ## END RESET ##  */
+* {
+  box-sizing: border-box;
+}
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1773px;
+  width: 100%;
+}
+
+body,
+input,
+select,
+button {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container {
+  padding: 0 331px;
+}
+
+.main-header {
+  background-image: url(../assets/bg-header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-header .main-header__form {
+  padding-top: 264px;
+  padding-bottom: 132px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  gap: 48px;
+}
+.main-header .main-header__form .main-header__text .main-header__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 11px;
+}
+.main-header .main-header__form .main-header__text .main-header__subtitle {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 6.82px;
+  color: #FFFFFF;
+}
+.main-header .main-header__form .main-header__search {
+  background-color: #FFFFFF;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-header .main-header__form .main-header__search input[type=text] {
+  width: 70%;
+  padding: 18px 0;
+  text-align: center;
+  background-color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+}
+.main-header .main-header__form .main-header__search input[type=text]::-moz-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 2.8px;
+  color: #999999;
+  text-transform: capitalize;
+}
+.main-header .main-header__form .main-header__search input[type=text]:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 2.8px;
+  color: #999999;
+  text-transform: capitalize;
+}
+.main-header .main-header__form .main-header__search input[type=text]::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 2.8px;
+  color: #999999;
+  text-transform: capitalize;
+}
+.main-header .main-header__form .main-header__search .btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 12px;
+  width: 30%;
+  font-family: "Aleo", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #5474FD;
+  border: none;
+  padding: 18px 23px;
+  border: 2px solid #FFFFFF;
+}
+.main-header .main-header__form .main-header__search .btn::after {
+  content: url(../assets/search.svg);
+}
+.main-header .main-header__form .main-header__scroll {
+  position: relative;
+  margin-top: 60px;
+}
+.main-header .main-header__form .main-header__scroll .scroll-down {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 2.8px;
+  color: #FFFFFF;
+}
+.main-header .main-header__form .main-header__scroll .scroll-down::after {
+  content: url(../assets/down-arrow.svg);
+  position: absolute;
+  top: 20px;
+  left: 45px;
+}
+.main-header .main-header__nav {
+  background: #5474FD;
+  padding: 25px 0;
+}
+.main-header .main-header__nav .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-header .main-header__nav .flex-container .right-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.main-header .main-header__nav .flex-container .right-nav .right-nav__item {
+  font-family: "Aleo", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.main-header .main-header__nav .flex-container .right-nav .right-nav__item a {
+  text-decoration: none;
+  font-family: "Aleo", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}/*# sourceMappingURL=main.css.map */

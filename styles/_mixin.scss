@@ -1,0 +1,15 @@
+@mixin link {
+    font-family: $specialFont;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: $accent1;
+}
+
+@mixin button {
+    background: $accent2;
+    border: none;
+    padding: 18px 23px;
+}
