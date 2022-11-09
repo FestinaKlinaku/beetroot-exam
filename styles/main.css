@@ -77,6 +77,16 @@ button {
 .container {
   padding: 0 331px;
 }
+@media (max-width: 767px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding: 0 40px;
+  }
+}
 
 .main-header {
   background-image: url(../assets/bg-header.png);
@@ -239,10 +249,26 @@ button {
   align-items: center;
   gap: 5%;
 }
+@media (max-width: 767px) {
+  .about .flex-2 {
+    flex-direction: column;
+  }
+}
 .about .flex-2 .about__content {
   width: 50%;
   padding-top: 212px;
   padding-bottom: 131px;
+}
+@media (max-width: 767px) {
+  .about .flex-2 .about__content {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
 }
 .about .flex-2 .about__content .about__title {
   font-family: "Aleo", sans-serif;
@@ -253,6 +279,12 @@ button {
   color: #FFFFFF;
   padding-bottom: 50px;
 }
+@media (max-width: 767px) {
+  .about .flex-2 .about__content .about__title {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}
 .about .flex-2 .about__content .about__text {
   font-family: "Josefin Sans", sans-serif;
   font-style: normal;
@@ -262,6 +294,12 @@ button {
   letter-spacing: 1.6px;
   color: #E8E8E8;
   padding-bottom: 45px;
+}
+@media (max-width: 767px) {
+  .about .flex-2 .about__content .about__text {
+    padding-bottom: 20px;
+    text-align: center;
+  }
 }
 .about .flex-2 .about__content .btn {
   background: #5474FD;
@@ -278,9 +316,23 @@ button {
 .about .flex-2 .about__images {
   width: 45%;
 }
+@media (max-width: 767px) {
+  .about .flex-2 .about__images {
+    width: 100%;
+  }
+  .about .flex-2 .about__images img {
+    width: 100%;
+  }
+}
 .about .flex-2 .about__images img:last-child {
   padding-left: 100px;
   margin-top: 10px;
+}
+@media (max-width: 767px) {
+  .about .flex-2 .about__images img:last-child {
+    padding-left: 0;
+    padding-bottom: 100px;
+  }
 }
 
 .features {
@@ -291,6 +343,11 @@ button {
 .features .features__line {
   display: flex;
   justify-content: center;
+}
+.features .features__line img {
+  max-width: 777px;
+  width: 100%;
+  padding: 0 60px;
 }
 .features .flex-3 {
   display: flex;
@@ -311,6 +368,11 @@ button {
   line-height: 26px;
   color: #FFFFFF;
 }
+@media (max-width: 767px) {
+  .features .flex-3 .features__item .features__title {
+    font-size: 16px;
+  }
+}
 .features .flex-3 .features__item img {
   background: #333333;
 }
@@ -324,11 +386,24 @@ button {
   padding-top: 229px;
   padding-bottom: 100px;
 }
+@media (max-width: 767px) {
+  .country .country__row {
+    padding: 100px 0;
+  }
+}
 .country .country__row .country__content {
   background: #232323;
   opacity: 0.9;
   padding: 47px 30px;
   max-width: 540px;
+}
+@media (max-width: 767px) {
+  .country .country__row .country__content {
+    max-width: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .country .country__row .country__content span {
   font-family: "Josefin Sans", sans-serif;
@@ -364,6 +439,11 @@ button {
   margin-top: 13px;
   margin-bottom: 46px;
 }
+@media (max-width: 767px) {
+  .country .country__row .country__content .country__text {
+    text-align: center;
+  }
+}
 .country .country__row .country__content .btn {
   background: #5474FD;
   border: none;
@@ -396,6 +476,11 @@ button {
   padding-top: 128px;
   padding-bottom: 199px;
 }
+@media (max-width: 767px) {
+  .testimonial {
+    padding: 100px 0;
+  }
+}
 .testimonial .testimonial__title {
   font-family: "Aleo", sans-serif;
   font-style: normal;
@@ -410,13 +495,28 @@ button {
   display: flex;
   flex-wrap: wrap;
 }
+@media (max-width: 767px) {
+  .testimonial .testimonial__content {
+    flex-direction: column;
+  }
+}
 .testimonial .testimonial__content .testimonial__image {
   width: 40%;
+}
+@media (max-width: 767px) {
+  .testimonial .testimonial__content .testimonial__image {
+    width: 100%;
+  }
 }
 .testimonial .testimonial__content .testimonial__info {
   width: 60%;
   background: #333333;
   padding: 47px 40px;
+}
+@media (max-width: 767px) {
+  .testimonial .testimonial__content .testimonial__info {
+    width: 100%;
+  }
 }
 .testimonial .testimonial__content .testimonial__info .info__title {
   font-family: "Josefin Sans", sans-serif;
@@ -428,6 +528,11 @@ button {
   color: #E8E8E8;
   font-size: 20px;
   text-transform: uppercase;
+}
+@media (max-width: 767px) {
+  .testimonial .testimonial__content .testimonial__info .info__title {
+    text-align: center;
+  }
 }
 .testimonial .testimonial__content .testimonial__info .info__text {
   font-family: "Josefin Sans", sans-serif;
@@ -442,6 +547,11 @@ button {
   content: "“";
   color: #5474FD;
   font-size: 24px;
+}
+@media (max-width: 767px) {
+  .testimonial .testimonial__content .testimonial__info .info__text {
+    text-align: center;
+  }
 }
 
 .main-footer {
