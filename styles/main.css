@@ -280,4 +280,36 @@ button {
 .about .flex-2 .about__images img:last-child {
   padding-left: 100px;
   margin-top: 10px;
+}
+
+.features {
+  background: #333333;
+  padding-top: 45px;
+  padding-bottom: 95px;
+}
+.features .features__line {
+  display: flex;
+  justify-content: center;
+}
+.features .flex-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.features .flex-3 .features__item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+}
+.features .flex-3 .features__item .features__title {
+  font-family: "Aleo", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.features .flex-3 .features__item img {
+  background: #333333;
 }/*# sourceMappingURL=main.css.map */

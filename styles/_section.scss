@@ -33,3 +33,29 @@
         }
     }
 }
+.features {
+    background: $accent5;
+    padding-top: 45px;
+    padding-bottom: 95px;
+    .features__line {
+        display: flex;
+        justify-content: center;
+    }
+    .flex-3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .features__item {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 20px;
+            .features__title {
+                @include title;
+            }
+            img {
+                background: $accent5;
+            }
+        }
+    }
+}
