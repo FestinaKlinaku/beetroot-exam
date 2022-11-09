@@ -96,10 +96,17 @@
             flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
+            @include mobile {
+                flex-direction: column;
+                gap: 20px;
+            }
             .right-nav {
                 display: flex;
                 flex-wrap: wrap;
                 gap: 20px;
+                @include mobile {
+                    flex-direction: column;
+                }
                 .right-nav__item {
                     @include link;
                     a {

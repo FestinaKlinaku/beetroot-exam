@@ -1,6 +1,9 @@
 .main-footer {
     background: $accent6;
     padding: 122px 0 53px 0;
+    @include mobile {
+        padding: 100px 0;
+    }
     .main-footer__content {
         display: flex;
         flex-wrap: wrap;
