@@ -1,0 +1,35 @@
+.about {
+    background-image: url(../assets/bg-about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .flex-2 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 5%;
+        .about__content {
+            width: 50%;
+            padding-top: 212px;
+            padding-bottom: 131px;
+            .about__title {
+                @include title;
+                padding-bottom: 50px;
+            }
+            .about__text {
+                @include text;
+                padding-bottom: 45px
+            }
+            .btn {
+                @include button;
+                @include link;
+            }
+        }
+        .about__images {
+            width: 45%;
+            img:last-child {
+                padding-left: 100px;
+                margin-top: 10px;
+            }
+        }
+    }
+}

@@ -13,3 +13,22 @@
     border: none;
     padding: 18px 23px;
 }
+
+@mixin title {
+    font-family: $specialFont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    color: $accent1;
+}
+
+@mixin text {  
+    font-family: $defaultFont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+    color: $accent4;
+}
