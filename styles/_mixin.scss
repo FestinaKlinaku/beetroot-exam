@@ -6,12 +6,18 @@
     letter-spacing: 1.4px;
     text-transform: uppercase;
     color: $accent1;
+    &:hover, &:active {
+        font-weight: bold;
+    }
 }
 
 @mixin button {
     background: $accent2;
     border: none;
     padding: 18px 23px;
+    &:hover {
+        filter: brightness(0.85);
+    }
 }
 
 @mixin title {

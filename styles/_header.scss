@@ -78,12 +78,16 @@
                 line-height: 26px;
                 text-align: center;
                 letter-spacing: 2.8px;
+                text-transform: capitalize;
                 color: $accent1;
                 &::after {
                     content: url(../assets/down-arrow.svg);
                     position: absolute;
                     top: 20px;
                     left: 45px;
+                }
+                &:hover {
+                    font-weight: bold;
                 }
             }
         }

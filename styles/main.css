@@ -75,7 +75,7 @@ button {
 }
 
 .container {
-  padding: 0 331px;
+  padding: 0 155px;
 }
 @media (max-width: 767px) {
   .container {
@@ -181,6 +181,12 @@ button {
   padding: 18px 23px;
   border: 2px solid #FFFFFF;
 }
+.main-header .main-header__form .main-header__search .btn:hover, .main-header .main-header__form .main-header__search .btn:active {
+  font-weight: bold;
+}
+.main-header .main-header__form .main-header__search .btn:hover {
+  filter: brightness(0.85);
+}
 .main-header .main-header__form .main-header__search .btn::after {
   content: url(../assets/search.svg);
 }
@@ -195,6 +201,7 @@ button {
   line-height: 26px;
   text-align: center;
   letter-spacing: 2.8px;
+  text-transform: capitalize;
   color: #FFFFFF;
 }
 .main-header .main-header__form .main-header__scroll .scroll-down::after {
@@ -202,6 +209,9 @@ button {
   position: absolute;
   top: 20px;
   left: 45px;
+}
+.main-header .main-header__form .main-header__scroll .scroll-down:hover {
+  font-weight: bold;
 }
 .main-header .main-header__nav {
   background: #5474FD;
@@ -238,6 +248,9 @@ button {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+.main-header .main-header__nav .flex-container .right-nav .right-nav__item:hover, .main-header .main-header__nav .flex-container .right-nav .right-nav__item:active {
+  font-weight: bold;
+}
 .main-header .main-header__nav .flex-container .right-nav .right-nav__item a {
   text-decoration: none;
   font-family: "Aleo", sans-serif;
@@ -247,6 +260,9 @@ button {
   letter-spacing: 1.4px;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+.main-header .main-header__nav .flex-container .right-nav .right-nav__item a:hover, .main-header .main-header__nav .flex-container .right-nav .right-nav__item a:active {
+  font-weight: bold;
 }
 
 .about {
@@ -334,6 +350,12 @@ button {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+.about .flex-2 .about__content .btn:hover {
+  filter: brightness(0.85);
+}
+.about .flex-2 .about__content .btn:hover, .about .flex-2 .about__content .btn:active {
+  font-weight: bold;
+}
 .about .flex-2 .about__images {
   width: 45%;
 }
@@ -380,7 +402,16 @@ button {
 .features .features__line img {
   max-width: 777px;
   width: 100%;
-  padding: 0 60px;
+}
+@media (max-width: 767px) {
+  .features .features__line img {
+    padding: 0 60px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .features .features__line img {
+    padding: 0 40px;
+  }
 }
 .features .flex-3 {
   display: flex;
@@ -493,6 +524,12 @@ button {
   letter-spacing: 1.4px;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+.country .country__row .country__content .btn:hover {
+  filter: brightness(0.85);
+}
+.country .country__row .country__content .btn:hover, .country .country__row .country__content .btn:active {
+  font-weight: bold;
 }
 .country .one {
   background-image: url(../assets/bg-country-1.png);
