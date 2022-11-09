@@ -1,0 +1,28 @@
+.main-footer {
+    background: $accent6;
+    padding: 122px 0 53px 0;
+    .main-footer__content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        gap: 30px;
+        .main-footer__text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+                padding-right: 10px
+            }
+            .main-footer__subtitle {
+                @include text;
+            }
+        }
+        .main-footer__links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    }
+}
